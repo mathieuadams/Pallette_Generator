@@ -1,0 +1,33 @@
+    body {
+      background-color: #f8f9fa;
+    }
+    h1 {
+      margin: 2rem 0 1rem;
+      font-weight: bold;
+      color: #343a40;
+    }
+    .color-box {
+      width: 100px;
+      height: 100px;
+      cursor: pointer;
+      border: 2px solid #dee2e6;
+      border-radius: 6px;
+      transition: transform 0.2s ease;
+    }
+    .color-box:hover {
+      transform: scale(1.05);
+      border-color: #495057;
+    }
+    .upload-section {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+    .preview-img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
